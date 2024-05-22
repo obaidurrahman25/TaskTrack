@@ -1,0 +1,41 @@
+.container {
+    .dialog-title {
+        border-bottom: 0.5px solid rgb(178, 178, 178);
+    }
+    .dialog-content {
+        margin: 20px;
+        .task-title {
+            margin-bottom: 2vh;
+            .title-label {
+                font-size: 20px;
+                margin-bottom: 5px;
+                color: gray;
+            }
+            .title-input {
+                width: 100%;
+                .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+                    padding: 8px 12px;
+                    font-size: 19px;
+                }
+            }
+        }
+        .task-desc {
+            .desc-label {
+                font-size: 20px;
+                margin-bottom: 5px;
+                color: gray;
+            }
+            .desc-input {
+                width: 100%;
+                .css-dpjnhs-MuiInputBase-root-MuiOutlinedInput-root {
+                    padding: 8px 12px;
+                    font-size: 19px;
+                }
+            }
+        }
+    }
+    .dialog-actions {
+        padding: 15px;
+        border-top: 0.5px solid rgb(178, 178, 178);
+    }
+}

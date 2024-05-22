@@ -1,0 +1,72 @@
+.card-container {
+    height: auto;
+    width: 60vw;
+    border: 0.4px solid lightgray;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 15px;
+    padding-left: 20px;
+    box-shadow: 0 4px 8px rgb(219, 237, 237);
+    .title-container {
+        display: flex;
+        margin-bottom: 1.5vh;
+        .title {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .status {
+            margin-top: 5px;
+            margin-left: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            border: 0.2px solid lightgray;
+            border-radius: 50px;
+            height:fit-content;
+            padding-left: 9px;
+            padding-right: 9px;
+            padding-top: 1px;
+            padding-bottom: 4px;
+        }
+        .in-progress {
+            background-color: rgb(243, 221, 99);
+            color: rgb(141, 123, 22);;
+        }
+        .pending {
+            background-color: red;
+            color: rgb(255, 255, 255);;
+        }
+        .completed {
+            background-color: green;
+            color: rgb(255, 255, 255);;
+        }
+    }
+    .task-data {
+        display: flex;
+        justify-content: space-between;
+        .description {
+            font-size: 20px;
+            margin-top: 1vh;
+        }
+        .action-container {
+            display: flex;
+            align-items: center;
+            .start-button {
+                background-color: rgb(7, 103, 133);
+            }
+            .complete-button {
+                background-color: rgb(7, 103, 133);   
+            }
+            .delete-button {
+                margin-left: 0.6vw;
+                margin-top: 0.4vh;
+                font-size: 34px;
+                border: 0px solid lightgray;
+                background-color: transparent;
+                color: rgb(102, 102, 102);
+                font-weight: 600;
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.header-container {
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    border-bottom: 0.5px solid rgb(205, 205, 205);
+    background-color: rgb(219, 237, 237);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    .title-tagline-container {
+        .app-title {
+            font-size: 37px;
+            font-style: italic;
+            margin: 20px;
+            font-weight: 600;
+            color:rgb(7, 103, 133);
+        }
+        .app-tagline {
+            margin: 20px;
+            font-size: 23px;
+            font-style: italic;
+            font-weight: 400;
+            color:Dark Gray;
+        }
+    }   
+}
